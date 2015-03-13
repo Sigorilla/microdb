@@ -1,0 +1,11 @@
+{
+	"abc": 1234,
+	"bool": false,
+	"string": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo modi velit incidunt accusantium architecto dicta impedit iste fugit quis illum amet voluptas nostrum, dolorem, deleniti sit magnam inventore beatae nemo!",
+	"array": [
+		0,
+		1,
+		2,
+		3
+	]
+}
