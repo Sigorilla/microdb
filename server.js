@@ -1,3 +1,7 @@
+/**
+ * You can get JSON format data from JSON-database from server as URL: /file?query=abc
+ */
+
 var http = require( "http" );
 var url = require( "url" );
 var fs = require( "fs" );
@@ -30,7 +34,7 @@ function requestListener ( req, res ) {
  */
 function readCallback ( err, data ) {
 	if ( err ) {
-		return showResult( res, 500, "Cannot read file '" + path + "'.", err, 500 );
+		return showResult( res, 500, "Cannot read file '" + path + "'.", err, );
 	}
 
 	var db = JSON.parse( data.toString() );
